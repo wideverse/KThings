@@ -1,7 +1,10 @@
 # KThings
 ## Kotlin friendly GPIO support on Andorid
 
-![](https://github.com/paolorotolo/kthings/blob/master/images/kthings.gif)
+[![](https://jitpack.io/v/wideverse/KThings.svg)](https://jitpack.io/#wideverse/KThings)
+
+
+![](https://github.com/wideverse/KThings/blob/master/images/kthings.gif)
 ```kotlin
 suspend fun blinkLed() {
     with (kthings) {
@@ -38,7 +41,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.wideverse:kthings:1.0.0'
+    implementation 'com.github.wideverse:KThings:1.0.0'
 }
 ```
 
@@ -146,3 +149,5 @@ suspend fun observeButton() {
 
 ## About
 This library has been developed at [Wideverse](https://www.wideverse.com/it/home-it/) @ [Polytechnic University of Bari](https://www.poliba.it/).
+
+![](https://github.com/wideverse/KThings/blob/master/images/banner.jpg)
